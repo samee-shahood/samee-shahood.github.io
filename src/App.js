@@ -21,7 +21,7 @@ function App() {
 	  <NavBar/>
 		<Route component={HomePage} path="/" exact />
 
-        <Route component={AllPosts} path="/blog" exact />
+        <Route exact component={AllPosts} path="/blog" render={props => <AllPosts/>} />
         <Route component={OnePost} path="/:slug" />
       </div>
     </HashRouter>
