@@ -1,0 +1,107 @@
+@import url("https://unpkg.com/@tailwindcss/typography@0.2.x/dist/typography.min.css");
+@import url("https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css");
+@import url("https://fonts.googleapis.com/css2?family=Merriweather&display=swap");
+
+.cursive {
+	font-family: 'Merriweather', serif;
+	font-weight: 500;
+}
+
+.prose img {
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 5px;
+}
+
+#infobox{
+	padding-left: 50px;
+  }
+
+#infobox2{
+	padding-right: 50px;
+}
+
+#unilogo{
+	height: 30%;
+	width: 30%;
+}
+
+.complogo{
+	width: 18%;
+}
+
+#rightside{
+	padding-right: 51%;
+}
+
+#title{
+	text-align: center;
+}
+
+#imgcenter{
+	display: block;
+margin-left: auto;
+margin-right: auto;
+}
+
+#mid{
+	align-items: center;
+	text-align: center;
+	width: 46%;
+	padding-left: 2.5%;
+	padding-right:2.5%;
+}
+
+#mid2{
+	align-items: center;
+	text-align: center;
+	width: 40%;
+	padding: 3%;
+}
+
+.resume{
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-right: 30px;
+	padding-left: 30px;
+	border-color: #3af8ef;
+	border-width: 2px;
+	
+	background-color: #fdffff;
+}
+
+.resume:hover{
+	background-color: #edfdfc;
+}
+
+.break{
+	font-size: 5px
+}
+
+.link{
+	color:#3fbdb6
+}
+
+.link2{
+	color:#3fbdb6
+}
+
+.link:hover {
+	color: rgb(39, 87, 76);
+  }
+
+
+.bloglink:hover {
+	color: rgb(39, 87, 76);
+  }
+
+.companycard{
+	background-color:rgb(255, 238, 248);
+	
+}
+
+.companycard2{
+	background-color:rgb(235, 240, 255);
+	padding-top: 10px;
+	padding-bottom:5px;
+}
