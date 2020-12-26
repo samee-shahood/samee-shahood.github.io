@@ -2,7 +2,7 @@
 
 import React from "react";
 import * as ReactBootStrap from "react-bootstrap";
-import { BrowserRouter, Route } from "react-router-dom";
+import { BrowserRouter, Route, HashRouter } from "react-router-dom";
 
 import HomePage from "./components/HomePage.js";
 
@@ -15,7 +15,7 @@ import NavBar from "./components/NavBar.js";
 
 function App() {
   return (
-    <BrowserRouter>
+    <HashRouter>
 
       <div>
 	  <NavBar/>
@@ -24,7 +24,7 @@ function App() {
         <Route component={AllPosts} path="/blog" exact />
         <Route component={OnePost} path="/:slug" />
       </div>
-    </BrowserRouter>
+    </HashRouter>
   );
 }
 export default App;
